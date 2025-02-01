@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="h-full lg:h-svh grid grid-cols-12 bg-[#08bee3] text-white">
+      <div
+        class="col-start-2 col-end-12 lg:col-col-start-2 lg:col-end-8 flex flex-col justify-center items-start mt-5 lg:mt-0"
+      >
+        <h1 class="text-4xl lg:text-8xl font-bold">
+          Il gelato.<br />
+          Come non l'hai mai provato.
+        </h1>
+        <div>
+          <button
+            class="bg-green-500 text-white border-1 border-white text-xs uppercase rounded-3xl py-2 px-3 my-2"
+          >
+            Scopri di più
+          </button>
+        </div>
+        <div class="flex flex-col lg:flex-row lg:items-center my-5">
+          <div class="flex">
+            <div
+              class="h-10 w-10 bg-white border-2 border-gray-200 rounded-full"
+            ></div>
+            <div
+              class="h-10 w-10 bg-white border-2 border-gray-200 rounded-full"
+            ></div>
+            <div
+              class="h-10 w-10 bg-white border-2 border-gray-200 rounded-full"
+            ></div>
+          </div>
+          <div class="flex flex-col text-xs lg:ml-5">
+            ⭐️ ⭐️ ⭐️ ⭐️ ⭐️
+            <p>I nostri clienti più soddisfatti</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-span-12 lg:col-start-8 lg:col-end-12 flex items-end justfy-end"
+      >
+        <img src="./assets/img-hero.png" />
+      </div>
+    </div>
+    <section>
+      <div class="h-full bg-white mt-20 mb-5">
+        <div class="flex flex-col justify-center items-center text-center">
+          <h2 class="text-3xl lg:text-6xl font-bold mb-2">
+            Il nostro gelato artigianale
+          </h2>
+          <p class="text-sm mx-5">
+            Una formula di ingredienti a kilometro zero
+          </p>
+        </div>
+        <div class="flex flex-col justify-center items-center my-20">
+          <div class="flex flex-col lg:flex-row items-center">
+            <p class="lg:text-2xl font-light">Cialda vegana</p>
+            <img
+              src="./assets/img-1.png"
+              alt="Immagine"
+              class="moving-image fade-in w-50 h-50 object-cover m-10"
+            />
+          </div>
+          <div class="flex flex-col-reverse lg:flex-row items-center">
+            <img
+              src="./assets/img-2.jpg"
+              alt="Immagine"
+              class="moving-image fade-in w-50 h-50 object-cover m-10"
+            />
+            <p class="lg:text-2xl font-light text-center">
+              Granella di<br />
+              caramello biologica
+            </p>
+          </div>
+          <div class="flex flex-col lg:flex-row items-center">
+            <p class="lg:text-2xl font-light text-center">
+              Panna montata<br />
+              a mano senza<br />
+              lattosio
+            </p>
+            <img
+              src="./assets/img-3.png"
+              alt="Immagine"
+              class="moving-image fade-in w-45 h-45 object-cover m-10"
+            />
+          </div>
+          <div class="flex flex-col-reverse lg:flex-row items-center">
+            <img
+              src="./assets/img-4.png"
+              alt="Immagine"
+              class="moving-image fade-in w-50 h-50 object-cover mt-10 lg:ml-35"
+            />
+            <p class="lg:text-2xl font-light text-center">
+              Gelato senza<br />
+              lattosio
+            </p>
+          </div>
+          <img
+            src="./assets/main-img.png"
+            alt="Immagine"
+            class="w-80 h-100 object-contain mb-20"
+          />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flex flex-col justify-center items-center text-center">
+        <h2 class="text-3xl lg:text-6xl font-bold mb-2">
+          I nostri best seller
+        </h2>
+        <p>Scopri i nostri prodotti più desiderati</p>
+      </div>
+      <div class="h-full grid grid-cols-12 my-20">
+        <div
+          class="col-start-2 col-end-12 flex flex-col lg:flex-row items-center justify-between gap-5"
+        >
+          <div
+            class="h-100 w-full rounded-3xl bg-[url(./assets/bg-1.jpg)] bg-cover bg-[center_top_-60px] bg-no-repeat"
+          >
+            <h4 class="text-4xl text-center text-white font-bold mt-10">
+              CONI
+            </h4>
+          </div>
+          <div
+            class="h-100 w-full rounded-3xl bg-[url(./assets/bg-2.jpg)] bg-cover bg-[center_top_-60px] bg-no-repeat"
+          >
+            <h4 class="text-4xl text-center text-white font-bold mt-10">
+              COPPETTE
+            </h4>
+          </div>
+          <div
+            class="h-100 w-full rounded-3xl bg-[url(./assets/bg-3.jpg)] bg-cover bg-[center_top_-10px] bg-no-repeat"
+          >
+            <h4 class="text-4xl text-center text-white font-bold mt-10">
+              GHIACCIOLI
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="h-[500px] grid grid-cols-12 bg-[#08bee3]">
+        <div
+          class="col-start-2 col-end-12 flex flex-col lg:flex-row items-center lg:justify-between lg:gap-5 my-5"
+        >
+          <h2 class="text-2xl lg:text-6xl text-white font-bold mb-5">
+            Resta aggiornato sulle nostre ultime novità:
+          </h2>
+          <form action="database.php" method="post">
+            <div class="lg:w-[400px] flex flex-col items-end gap-2">
+              <input
+                type="text"
+                class="h-10 w-full lg:h-14 text-xs bg-white text-black p-2"
+                name="firstname"
+                placeholder="Nome"
+                required
+              />
+              <input
+                type="text"
+                class="h-10 w-full lg:h-14 text-xs bg-white text-black p-2"
+                name="lastname"
+                placeholder="Cognome"
+                required
+              />
+              <input
+                type="email"
+                class="h-10 w-full lg:h-14 text-xs bg-white text-black p-2"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+            <div class="text-xs my-2">
+              <input
+                type="checkbox"
+                id="trattamentodati"
+                name="trattamentodati"
+                value="trattamentodati"
+                required
+              />
+              <label for="trattamentodati"
+                >Ho letto e accetto i
+                <a href="#">Termini & Condizioni</a></label
+              >
+            </div>
+            <div
+              class="h-10 w-full lg:h-14 flex justify-center bg-white text-black mt-4 p-2 transition duration-300 hover:bg-green-600 cursor-pointer"
+            >
+              <input
+                type="submit"
+                class="cursor-pointer"
+                value="Iscriviti ora"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="h-20 flex justify-center items-center text-sm mx-5">
+        <ul class="flex gap-5">
+          <li>home</li>
+          <li>prodotti</li>
+          <li>news</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
